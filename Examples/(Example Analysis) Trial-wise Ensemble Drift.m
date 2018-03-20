@@ -27,8 +27,8 @@ load(fileNames{cellfun(@(a)~isempty(a), strfind(fileNames, 'BehaviorMatrix'))});
 load(fileNames{cellfun(@(a)~isempty(a), strfind(fileNames, 'EnsembleMatrix'))});
 
 %% Runtime Variables
-trialWindow = [0 1]; % Use to examine trial period
-% trialWindow = [-0.5 0]; % Use to examine pre-trial period
+% trialWindow = [0 1]; % Use to examine trial period
+trialWindow = [-0.5 0]; % Use to examine pre-trial period
 
 
 colors = [[110/255 190/255 245/255];... %A
